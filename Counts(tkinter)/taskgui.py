@@ -29,12 +29,12 @@ def button2():
 lbl=tkinter.Label(screen,text="Do you like python language\n or not ?",font=("arial",10,"bold"),bg="gray")
 lbl.place(x=10,y=10)
 
-btn=tkinter.Button(screen,text="like",font=("arial",6,"bold"),command=lambda :button2())
+btn=tkinter.Button(screen,text="like",font=("arial",6,"bold"),command=lambda :button())
 btn.place(x=50,y=60)
 
 
 
-btn=tkinter.Button(screen,text="dis-like",font=("arial",6,"bold"),command=lambda :button())
+btn=tkinter.Button(screen,text="dis-like",font=("arial",6,"bold"),command=lambda :button2())
 btn.place(x=110,y=60)
 
 
