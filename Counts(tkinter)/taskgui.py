@@ -21,10 +21,7 @@ def button2():
         print("Total dis-likes= ",c)
         print("    ")
         break
-        
-        
-    
-      
+           
    
 lbl=tkinter.Label(screen,text="Do you like python language\n or not ?",font=("arial",10,"bold"),bg="gray")
 lbl.place(x=10,y=10)
@@ -40,8 +37,6 @@ btn.place(x=110,y=60)
 
 lbl=tkinter.Label(screen,text="Thank you !!",font=("arial",8,"bold"),bg="gray")
 lbl.place(x=60,y=90)
-
-
 
 
 screen.mainloop()
